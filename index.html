@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Normalize CSS cleans up standard web page setup -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Link CSS to HTML withing the head -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>CodeClan News</title>
+</head>
+<body>
+    <!-- --------------------------------------------------------------------------------- -->
+    <!-- HEADER -->
+    <header>
+        <h1 id="CC-logo">CodeClan News</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/home">Home</a>
+                </li>
+                <li>
+                    <a href="/blog">Blog</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- --------------------------------------------------------------------------------- -->
+    <!-- MAIN -->
+    <main>
+        
+        <!-- --------------------- -->
+
+        <section>
+            <hgroup>
+                <h2>Login</h2>
+            </hgroup>
+            
+            <form>
+                <label for="email"><b>Email:</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="password"><b>Password:</b></label>
+                <input type="text" placeholder="Enter Password" name="password" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+        <!-- --------------------- -->
+
+        <section>
+            <hgroup>
+                <h2>Categories</h2>
+            </hgroup>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/blog/latest">Latest</a>
+                    </li>
+                    <li>
+                        <a href="/blog/local">Local</a>
+                    </li>
+                    <li>
+                        <a href="/blog/politics">Politics</a>
+                    </li>
+                    <li>
+                        <a href="/blog/sports">Sports</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- --------------------- -->
+
+        <article>
+            <hgroup>
+                <h2>Latest</h2>
+                <h3>Breaking News</h3>
+            </hgroup>
+        
+            <section>
+                <a href="https://codeclan.com" target="_blank">
+                <img src="https://source.unsplash.com/200x150/?news" alt="Breaking News"></a>
+                <p><b>Story Headline</b></p>
+                <p>This is the first line of the article. The user would be able to click on the preview to read more...</p>
+
+                
+                <img src="https://source.unsplash.com/200x150/?story" alt="Breaking News">
+                <p><b>Story Headline</b></p>
+                <p>This is the first line of the article. The user would be able to click on the preview to read more...</p>
+
+
+                <img src="https://source.unsplash.com/200x150/?new" alt="Breaking News">
+                <p><b>Story Headline</b></p>
+                <p>This is the first line of the article. The user would be able to click on the preview to read more...</p>
+            </section>
+        </article>
+
+        <!-- --------------------- -->
+
+        <section>
+            <hgroup>
+                <h2>Main Article Headline</h2>
+                <h3>Author Name</h3>
+            </hgroup>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio fugit atque dolorum nesciunt quas alias magnam, quam hic voluptas laboriosam tempora velit nemo quia dolor ipsum harum cumque, laborum culpa optio ipsa, facilis voluptatibus assumenda iusto deleniti. Inventore perspiciatis voluptatem, optio libero doloribus omnis ex amet saepe illum assumenda minima temporibus repudiandae nemo ipsum expedita possimus. Enim, dolorem! Nam voluptates atque cum repellendus in, veritatis praesentium ratione quasi dolorem molestiae aperiam tenetur vero ipsam vel veniam et sint cupiditate odit. Atque inventore alias id dolor quasi consectetur sequi repellendus tempora debitis quis maiores voluptatum ex, vel laborum autem incidunt accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nihil ut tempora optio quos quisquam ullam accusantium voluptatum, incidunt provident sunt placeat alias deserunt, modi est harum natus. Molestiae ad, expedita impedit natus rerum commodi labore veniam et sed dolores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur quo atque omnis non facilis ratione ipsa error accusantium qui, vero similique, et ad? Voluptatibus repellendus dolor placeat dolorem corrupti non sunt aliquid inventore id nihil vero libero odit praesentium atque, rem laborum esse aut nulla quos impedit, laboriosam unde amet ipsum rerum? Quas quod quibusdam minus eveniet facilis dolorum aliquam. Neque illum quas excepturi, veniam exercitationem doloribus sint laboriosam?</p>
+        </section>
+
+        <!-- --------------------- -->
+        <!-- MAIN FOOTER -->
+        <footer>
+            <hgroup>
+                <h2>Comments</h2>
+            </hgroup>
+
+            <form>
+                <textarea class="input" name="comments" placeholder="Write comments here"></textarea>
+                <button id="submit-comment" type="submit">Submit</button>
+            </form>
+    
+            <br>
+
+            <article>
+                <section id="user-comment">
+                    <img id="round-img" src="https://source.unsplash.com/80x80/?user-1" alt="User 1">
+                    <h3>Username</h3>
+                    <p><b>Posted: 22/11/2021</b></p>
+                    <p>It was interesting. Thanks</p>
+                </section>
+
+                <section id="user-comment">
+                    <img id="round-img" src="https://source.unsplash.com/80x80/?user-2" alt="User 2">
+                    <h3>Username</h3>
+                    <p><b>Posted: 22/11/2021</b></p>
+                    <p>It was interesting. Thanks</p>
+                </section>
+
+                <section id="user-comment">
+                    <img id="round-img" src="https://source.unsplash.com/80x80/?user-3" alt="User 3">
+                    <h3>Username</h3>
+                    <p><b>Posted: 22/11/2021</b></p>
+                    <p>It was interesting. Thanks</p>
+                </section>
+            </article>
+
+        </footer>
+    </main>
+
+    <!-- --------------------------------------------------------------------------------- -->
+    <!-- FOOTER -->
+    <footer>
+        <p>CodeClan News 2021</p>
+    </footer>
+
+</body>
+</html>
